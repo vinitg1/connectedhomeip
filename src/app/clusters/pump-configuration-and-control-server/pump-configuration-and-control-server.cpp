@@ -101,8 +101,8 @@ static void updateAttributeLinks(EndpointId endpoint)
     }
     break;
 
-    // The pump is controlled by the OperationMode attribute.
-    // Maximum, Minimum or Local
+        // The pump is controlled by the OperationMode attribute.
+        // Maximum, Minimum or Local
 
     case PumpOperationMode::kMaximum: {
         uint8_t maxLevel;
